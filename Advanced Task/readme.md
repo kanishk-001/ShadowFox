@@ -54,6 +54,10 @@ PyTorch for the deep learning framework.
 The Spider dataset for text-to-SQL tasks.
 
 
+## Summary of this project-
+The T5-SQL Generator project leverages the power of the T5 (Text-to-Text Transfer Transformer) model to translate natural language queries into SQL queries. By fine-tuning the pre-trained T5 model on a custom dataset containing natural language queries paired with their corresponding SQL commands, the system enables accurate and efficient translation from English to SQL. The project is implemented using the Hugging Face transformers library along with PyTorch for model training and inference. It offers an interactive command-line interface, where users can input natural language queries, and the system returns the generated SQL queries. The model is trained using a dataset with columns for natural language queries (text_query) and their corresponding SQL statements (sql_command). After training, users can run the model to generate SQL queries from input queries and evaluate the model’s performance through visualization tools such as accuracy plots, SQL query length distributions, and attention heatmaps. The project also includes the necessary scripts for training the model, generating SQL queries, and visualizing results, making it a comprehensive solution for automated text-to-SQL conversion.
+
+
 
 
 
